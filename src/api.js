@@ -5,7 +5,7 @@ const API = axios.create({
 });
 
 API.interceptors.request.use((config) => {
-    config.headers["x-api-key"] = "somekey";
+    config.headers["x-api-key"] = "79573220ae5991af35bdcc552b1dd1c5";
     return config;
 });
 
